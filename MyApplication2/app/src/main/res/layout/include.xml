@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/vfMainFliper1">
+    <include :id="@+id/layout_0"
+        layout="@layout/activity_main"/>
+    <include :id="@+id/layout_1"
+        layout="@layout/trangchu"></include>
+</ViewFlipper>

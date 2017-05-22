@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#2f46c7</color>
+    <color name="colorPrimary">#4b579f</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="Mauchu">#303F9F</color>
+    <color name="backcolor">#e27199</color>
+    <color name="menu">#475a71</color>
+    <color name="input">#f3f8fd</color>
+</resources>

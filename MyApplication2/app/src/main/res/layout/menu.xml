@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/com_facebook_button_login_silver_background_color">
+    <TextView
+        android:layout_width="80px"
+        android:layout_height="60px"
+        android:id="@+id/textView13"
+        android:text="Menu"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="50px"
+    android:background="@color/backcolor"
+    android:text="Đây là menu Thông Tin Cá Nhân"
+    android:fontFamily="arial"
+    android:id="@+id/textView9"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:background="@color/colorPrimary"
+        android:text="đây là menu Thêm bài viết"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:text="đây là menu Chat"
+        android:background="@color/backcolor"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:text="Đay là menu Lịch Sử Bài Đăng"
+        android:background="@color/colorPrimary"
+        android:id="@+id/textView12"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:text="Đây là menu Đăng Xuất"
+        android:background="@color/backcolor"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView19" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:text="Đây là thanh thông báo"
+        android:background="@color/colorPrimary"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#FF7B7C80"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="600px"
+        android:layout_below="@+id/textView19"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"></ListView>
+</RelativeLayout>
