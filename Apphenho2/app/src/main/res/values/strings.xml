@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Apphenho</string>
+    <string name="Add_Post">Add-Post</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nameuser">Trần Thanh Cao</string>
+    <string name="addresuser">Songnuoclantan@gmai.com</string>
+    <string name="action_settings">Settings</string>
+</resources>
